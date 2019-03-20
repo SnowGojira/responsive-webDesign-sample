@@ -1,14 +1,10 @@
-/*make a css frame*/
-/**{
-    border:1px solid red !important;
-}
-*/
-/**{
+/*public attribute*/
+
+*{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
     box-sizing:border-box;
-}*/
+}
 
 *{
     margin:0;
@@ -26,5 +22,8 @@
     font-weight: 100;
 }
 
+.ipad-style{
+    display: none;
+}
     
 
