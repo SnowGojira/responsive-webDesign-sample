@@ -11,7 +11,6 @@
     padding:0;
     font-family: 'Lato', cursive;
     font-weight: 300;
-    color: #747704
 }
 
 .text-mute{
@@ -21,14 +20,27 @@
 .text-thin{
     font-weight: 100;
 }
-
+.text-thick{
+    font-weight: 500;
+}
+h1{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 0.6rem;
+}
 .ipad-style{
     display: none;
 }
-
-#logo{
-    width: 100px;
-    height: 100px;
+.col-md-6{
+    width: 50%;
 }
-    
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.head-content{
+    margin-top: 1.5rem;
+}
 
