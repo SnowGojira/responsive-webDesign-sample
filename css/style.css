@@ -34,9 +34,7 @@ h3{
     font-size: 0.9rem;
     margin-top: 1.2rem;
 }
-.ipad-style{
-    display: none;
-}
+
 .col-md-6{
     width: 50%;
 }
@@ -48,7 +46,14 @@ h3{
 .head-content{
     margin-top: 1.2rem;
 }
+img{
+    /*width: 50vw;*/
+    transition: width 0.5s;
+}
 
+.icon{
+    /*width: 1.5rem;*/
+}
 @media (min-width: 480px) and (max-width: 800px) {
 
     .container{
@@ -58,11 +63,43 @@ h3{
     .col-md-4{
         width: 50%;
     }
+
+    #logo{
+        width: 64px;
+        height: 64px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+    h3{
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+    }
 }
 @media (min-width: 801px) {
-    
 
     .container{
         max-width: 960px;
+    }
+
+    #logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        margin-top: 1.2rem;
     }
 }
