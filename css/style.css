@@ -127,25 +127,37 @@ a:hover {
 }
 
 .col-md-9{
-    max-width: 300px;
+    max-width: 80%;
     margin: 1rem auto;
+}
+
+footer{
+    margin: 0 auto 1rem auto;
 }
 
 @media (min-width: 480px) and (max-width: 800px) {
 
-    .container{
+    .container {
         max-width: 750px;
     }
 
+    .iconfont {
+        font-size: 1rem;
+    }
+
+    .snow{
+        font-size: 0.7rem;
+    }
+
     .col-md-4{
-        width: 50%;
+        max-width: 50%;
     }
 
     .col-md-3{
-        width: 50%;
+        max-width: 50%;
     }
     .col-md-9{
-        width: 50%;
+        max-width: 50%;
         margin: 0 auto;
     }
     #logo{
@@ -168,6 +180,13 @@ a:hover {
     }
 }
 @media (min-width: 801px) {
+    .iconfont {
+        font-size: 1.5rem;
+    }
+
+    .snow{
+        font-size: 0.7rem;
+    }
 
     .container{
         max-width: 960px;
