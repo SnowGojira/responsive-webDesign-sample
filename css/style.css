@@ -51,10 +51,19 @@
     font-weight: 300;
 }
 
+h5,p,.col-md-4{
+    text-align: center;
+}
+
 .text-mute, a{
     color:#bcbbbb;
 }
-
+.text-right{
+    text-align: right;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
 .text-thin{
     font-weight: 100;
 }
