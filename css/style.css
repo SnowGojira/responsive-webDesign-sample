@@ -61,17 +61,6 @@
 .text-thick{
     font-weight: 500;
 }
-h1{
-    font-size: 1.5rem;
-}
-h4{
-    font-size: 0.6rem;
-}
-
-h3{
-    font-size: 0.9rem;
-    margin-top: 1.2rem;
-}
 
 .col-md-6{
     width: 50%;
@@ -86,14 +75,39 @@ h3{
     margin-top: 1.2rem;
 }
 
-.snow{
-    font-size: 0.7rem;
-    /* margin-top: -2px; */
+h1{
+    font-size: 1.5rem;
 }
 
-.icon{
-    /*width: 1.5rem;*/
+h3{
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
+
+h4{
+    font-size: 0.6rem;
+}
+
+h5{
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+}
+
+p{
+    font-size: 0.75rem;
+}
+
+a:hover {
+    color: #eff8fd;
+    text-decoration: none;
+
+}
+
+.snow{
+    font-size: 0.7rem;
+}
+
 @media (min-width: 480px) and (max-width: 800px) {
 
     .container{
