@@ -98,6 +98,10 @@ p{
     font-size: 0.75rem;
 }
 
+.bio{
+    text-align: justify;
+}
+
 a:hover {
     color: #eff8fd;
     text-decoration: none;
@@ -106,6 +110,16 @@ a:hover {
 
 .snow{
     font-size: 0.7rem;
+}
+
+.col-md-3{
+    width: 100%;
+    text-align: center;
+}
+
+.col-md-9{
+    max-width: 300px;
+    margin: 1rem auto;
 }
 
 @media (min-width: 480px) and (max-width: 800px) {
@@ -118,6 +132,13 @@ a:hover {
         width: 50%;
     }
 
+    .col-md-3{
+        width: 50%;
+    }
+    .col-md-9{
+        width: 50%;
+        margin: 0 auto;
+    }
     #logo{
         width: 64px;
         height: 64px;
@@ -132,6 +153,9 @@ a:hover {
     h3{
         font-size: 1.2rem;
         margin-top: 1.2rem;
+    }
+    .bio{
+        font-size: 0.8rem;
     }
 }
 @media (min-width: 801px) {
@@ -155,5 +179,12 @@ a:hover {
     h3{
         font-size: 1.5rem;
         margin-top: 1.2rem;
+    }
+    .col-md-9{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .bio{
+        font-size: 1rem;
     }
 }
