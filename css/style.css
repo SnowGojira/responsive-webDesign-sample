@@ -42,72 +42,77 @@
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-}
-
-*{
     margin:0;
     padding:0;
     font-family: 'Lato', cursive;
     font-weight: 300;
 }
 
-h5,p,.col-md-4{
+
+h5,
+p,
+.col-md-4 {
     text-align: center;
 }
 
-.text-mute, a{
+.text-mute,
+a {
     color:#bcbbbb;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.text-uppercase{
+
+.text-uppercase {
     text-transform: uppercase;
 }
-.text-thin{
+
+.text-thin {
     font-weight: 100;
 }
-.text-thick{
+
+.text-thick {
     font-weight: 500;
 }
 
-.col-md-6{
+.col-md-6 {
     width: 50%;
 }
 
-#logo{
+#logo {
     width: 50px;
     height: 50px;
 }
 
-.head-content{
+.head-content {
     margin-top: 1.2rem;
 }
 
-h1{
+h1 {
     font-size: 1.5rem;
 }
 
-h3{
+h3 {
     font-size: 0.9rem;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
 
-h4{
+h4 {
     font-size: 0.6rem;
 }
 
-h5{
+h5 {
     margin-top: 1.2rem;
     font-size: 0.8rem;
 }
 
-p{
+p {
     font-size: 0.75rem;
 }
 
-.bio{
+.bio {
     text-align: justify;
 }
 
@@ -117,21 +122,21 @@ a:hover {
 
 }
 
-.snow{
+.snow {
     font-size: 0.7rem;
 }
 
-.col-md-3{
+.col-md-3 {
     width: 100%;
     text-align: center;
 }
 
-.col-md-9{
+.col-md-9 {
     max-width: 80%;
     margin: 1rem auto;
 }
 
-footer{
+footer {
     margin: 0 auto 1rem auto;
 }
 
@@ -145,37 +150,40 @@ footer{
         font-size: 1rem;
     }
 
-    .snow{
+    .snow {
         font-size: 0.7rem;
     }
 
-    .col-md-4{
+    .col-md-4 {
         max-width: 50%;
     }
 
-    .col-md-3{
+    .col-md-3 {
         max-width: 50%;
     }
-    .col-md-9{
+    .col-md-9 {
         max-width: 50%;
         margin: 0 auto;
     }
-    #logo{
+    #logo {
         width: 64px;
         height: 64px;
     }
 
-    h1{
+    h1 {
         font-size: 2rem;
     }
-    h4{
+
+    h4 {
         font-size: 0.8rem;
     }
-    h3{
+
+    h3 {
         font-size: 1.2rem;
         margin-top: 1.2rem;
     }
-    .bio{
+
+    .bio {
         font-size: 0.8rem;
     }
 }
@@ -184,35 +192,38 @@ footer{
         font-size: 1.5rem;
     }
 
-    .snow{
+    .snow {
         font-size: 0.7rem;
     }
 
-    .container{
+    .container {
         max-width: 960px;
     }
 
-    #logo{
+    #logo {
         width: 80px;
         height: 80px;
     }
 
-    h1{
+    h1 {
         font-size: 2.5rem;
     }
-    h4{
+
+    h4 {
         font-size: 1rem;
     }
 
-    h3{
+    h3 {
         font-size: 1.5rem;
         margin-top: 1.2rem;
     }
-    .col-md-9{
+    
+    .col-md-9 {
         max-width: 100%;
         margin: 0 auto;
     }
-    .bio{
+
+    .bio {
         font-size: 1rem;
     }
 }
